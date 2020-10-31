@@ -1,5 +1,11 @@
 function App() {
-  return <h1 > Hello, world!</h1>;
+  return (
+    <div>
+      <label htmlFor="bar"> bar</label>
+      <input type="text" onClick={() => { console.log("I am click") }}></input>
+    </div>
+  )
 }
+
 
 export default App;
